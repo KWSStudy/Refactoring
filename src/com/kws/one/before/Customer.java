@@ -1,5 +1,7 @@
 package com.kws.one.before;
 
+import org.junit.Test;
+
 import java.util.Enumeration;
 import java.util.Vector;
 
@@ -30,25 +32,11 @@ public class Customer {
 		while(rentals.hasMoreElements()) {
 			double thisAmount = 0;
 			Rental each = (Rental) rentals.nextElement();
-			
-			//비디오 종류별 대여로 계산 
-			switch (each.getMovie().getPriceCode()) {
-			case Movie.REGULAR:
-				thisAmount += 2;
-				if(each.getDaysRented() > 2) 
-					thisAmount += (each.getDaysRented() - 2) * 1.5;
-				break;
-			case Movie.NEW_RELEASE:	
-				thisAmount += each.getDaysRented() * 3;
-				break;	
-			case Movie.CHILDRENS:
-				thisAmount += 1.5;
-				if(each.getDaysRented() > 3)
-					thisAmount += (each.getDaysRented() - 3) * 1.5;
-				break;	
-			}
-			
-			//적립 포인트 1포인트 증
+
+			//비디오 종류별 대여로 계산
+            thisAmount = each.amountFor();
+
+            //적립 포인트 1포인트 증
 			frequentRenterPoints ++;
 			
 			//최신물을 이틀 이상 대여하면 보너스 포인트 지급 
@@ -67,6 +55,5 @@ public class Customer {
 		result += "적립 포인트 : " + String.valueOf(frequentRenterPoints);
 		return result;
 	}
-	
-	
+
 }
