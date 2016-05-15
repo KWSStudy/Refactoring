@@ -13,7 +13,7 @@ import static junit.framework.TestCase.assertEquals;
 /**
  * Created by jihoon on 2016. 5. 15..
  */
-public class FileReaderTest4 {
+public class FileReaderTest4Unit {
 
 
     private FileReader _input;
