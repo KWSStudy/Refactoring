@@ -2,29 +2,13 @@ package com.kws.eight.twos;
 
 public class Customer {
 	private final String _customer;
-	private final int _phone;
-	private final String _address;
 
-	public Customer(String customer, int phone, String address) {
+	public Customer(String customer) {
 		this._customer = customer;
-		this._phone = phone;
-		this._address = address;
 	}
 
-	public Customer getCustomers() {
-		return this;
-	}
-	
-	public String getCustomer(){
+	public String getCustomers() {
 		return this._customer;
 	}
 	
-	public int getPhone(){
-		return this._phone;
-	}
-	
-	public String getAddress(){
-		return this._address;
-	}
-
 }

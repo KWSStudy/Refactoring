@@ -12,18 +12,18 @@ public class OrderAfter {
 	
 	@SuppressWarnings("static-access")
 	public OrderAfter() {
-		this._customer = new Customer("customer", 1, "shinrim");
+		this._customer = new Customer("customer");
 	}
 	
-	public Customer getCustomers(){
+	public String getCustomers(){
 		return _customer.getCustomers();
 	}
 	
-	public void setCustomer(String customer, int phone, String address){
-		_customer = new Customer(customer, phone, address);
+	public void setCustomer(String customer){
+		_customer = new Customer(customer);
 	}
 	
-	private static int numberOrderFor(List<Customer> orders, String customer){
+	private static int numberOrderFor(List<OrderAfter> orders, String customer){
 		
 		int result = 0;
 		
@@ -31,17 +31,11 @@ public class OrderAfter {
 		Iterator iter = orders.iterator();
 
 		while(iter.hasNext()){
-			Customer each = (Customer) iter.next();
-			if(each.getCustomer().equals(customer)){
-				Log.systemLog("getCustomer :" , each.getCustomer());
+			OrderAfter each = (OrderAfter) iter.next();
+			if(each.getCustomers().equals(customer)){
+				Log.systemLog("getCustomer :" , each.getCustomers());
 				result++;
 			}
-			
-			if(each.getAddress().equals(customer)){
-				Log.systemLog("getAddress :" , each.getAddress());
-				result++;
-			}
-			
 		}
 		
 		return result;
@@ -53,16 +47,12 @@ public class OrderAfter {
 		int result = 0;
 		
 		OrderAfter orderCollection = new OrderAfter();
-		List<Customer> orders = new ArrayList<Customer>();
+		List<OrderAfter> orders = new ArrayList<OrderAfter>();
 		
-		Customer cu = new Customer("customer", 1, "shinrim");
-
-		orderCollection.setCustomer("customer", 1, "shinrim");
-//		orders.add(cu);
-		orders.add(orderCollection.getCustomers());
+		orderCollection.setCustomer("");
+		orders.add(orderCollection);
 		
 		result += orderCollection.numberOrderFor(orders, "customer");
-		result += orderCollection.numberOrderFor(orders, "shinrim");
 		
 		Log.systemLog("Count : ", result);
 		
