@@ -64,7 +64,11 @@ public class FileReaderTester extends TestCase {
 
     public static Test suite() {
         TestSuite suite = new TestSuite();
+        suite.addTest(new FileReaderTester("testRead"));//메서드 name 을 넘기면 실행
+        suite.addTest(new FileReaderTester("testReadAtEnd"));//메서드 name 을 넘기면 실행
         suite.addTest(new FileReaderTester("testReadBoundaries"));//메서드 name 을 넘기면 실행
+        suite.addTest(new FileReaderTester("testEmptyRead"));//메서드 name 을 넘기면 실행
+        suite.addTest(new FileReaderTester("testReadAfterClose"));//메서드 name 을 넘기면 실행
         return suite;
     }
 
