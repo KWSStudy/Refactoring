@@ -37,7 +37,6 @@ namespace MethodClean.메서드_추출
                 outstanding = each.getAmount();
             }
 
-    
             Console.WriteLine("고객명" + OrderVO.Name);
             Console.WriteLine("외상액" + outstanding);
             
