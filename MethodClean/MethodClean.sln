@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodClean", "MethodClean\MethodClean.csproj", "{533D1E9E-33E7-4511-BC70-4AE37FBEB7B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodCleanRepactoring", "MethodCleanRepactoring\MethodCleanRepactoring.csproj", "{075A62C9-8794-4E0B-A2F6-FB18EE6665CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{533D1E9E-33E7-4511-BC70-4AE37FBEB7B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{533D1E9E-33E7-4511-BC70-4AE37FBEB7B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{533D1E9E-33E7-4511-BC70-4AE37FBEB7B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{533D1E9E-33E7-4511-BC70-4AE37FBEB7B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{075A62C9-8794-4E0B-A2F6-FB18EE6665CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{075A62C9-8794-4E0B-A2F6-FB18EE6665CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{075A62C9-8794-4E0B-A2F6-FB18EE6665CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{075A62C9-8794-4E0B-A2F6-FB18EE6665CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

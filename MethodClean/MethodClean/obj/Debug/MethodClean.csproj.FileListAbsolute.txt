@@ -1,0 +1,6 @@
+c:\users\ara\documents\visual studio 2012\Projects\MethodClean\MethodClean\bin\Debug\MethodClean.exe.config
+C:\Users\Ara\documents\visual studio 2012\Projects\MethodClean\MethodClean\bin\Debug\MethodClean.exe
+C:\Users\Ara\documents\visual studio 2012\Projects\MethodClean\MethodClean\bin\Debug\MethodClean.pdb
+C:\Users\Ara\documents\visual studio 2012\Projects\MethodClean\MethodClean\obj\Debug\MethodClean.csprojResolveAssemblyReference.cache
+C:\Users\Ara\documents\visual studio 2012\Projects\MethodClean\MethodClean\obj\Debug\MethodClean.exe
+C:\Users\Ara\documents\visual studio 2012\Projects\MethodClean\MethodClean\obj\Debug\MethodClean.pdb

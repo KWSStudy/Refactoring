@@ -1,0 +1,6 @@
+C:\Users\Ara\documents\visual studio 2012\Projects\MethodClean\MethodCleanRepactoring\obj\Debug\MethodCleanRepactoring.csprojResolveAssemblyReference.cache
+C:\Users\Ara\documents\visual studio 2012\Projects\MethodClean\MethodCleanRepactoring\bin\Debug\MethodCleanRepactoring.exe.config
+C:\Users\Ara\documents\visual studio 2012\Projects\MethodClean\MethodCleanRepactoring\bin\Debug\MethodCleanRepactoring.exe
+C:\Users\Ara\documents\visual studio 2012\Projects\MethodClean\MethodCleanRepactoring\bin\Debug\MethodCleanRepactoring.pdb
+C:\Users\Ara\documents\visual studio 2012\Projects\MethodClean\MethodCleanRepactoring\obj\Debug\MethodCleanRepactoring.exe
+C:\Users\Ara\documents\visual studio 2012\Projects\MethodClean\MethodCleanRepactoring\obj\Debug\MethodCleanRepactoring.pdb
