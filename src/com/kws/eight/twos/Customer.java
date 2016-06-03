@@ -1,14 +1,14 @@
 package com.kws.eight.twos;
 
 public class Customer {
-	private final String _customer;
+	private final String name;
 
 	public Customer(String customer) {
-		this._customer = customer;
+		this.name = customer;
 	}
 
 	public String getCustomers() {
-		return this._customer;
+		return this.name;
 	}
 	//
 }
