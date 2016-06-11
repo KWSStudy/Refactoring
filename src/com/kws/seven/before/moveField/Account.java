@@ -14,6 +14,8 @@ public class Account {
         }
     }
 
+
+
     public double interestForAmount_days(double amount, int days) {
         return _interestRate * amount * days / 365;
     }

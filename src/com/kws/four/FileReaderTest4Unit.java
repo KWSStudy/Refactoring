@@ -47,10 +47,13 @@ public class FileReaderTest4Unit {
             System.out.println(ch);
         }
 //		assertTrue('d'==ch);
-//		assert('m' == ch);
+
+		assert('m' == ch);
         assertEquals('d', ch);
     }
 
-
+    public int test(int i){
+        return 0;
+    }
 
 }

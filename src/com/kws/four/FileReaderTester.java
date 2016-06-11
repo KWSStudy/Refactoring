@@ -58,8 +58,8 @@ public class FileReaderTester extends TestCase {
             System.out.println("!!!!!!"+ ch);
         }
 //		assertTrue('d'==ch);
-		assert('2' == ch);
-//        assertEquals('d', ch);
+//		assert('2' == ch);
+        assertEquals('d', ch);
     }
 
     public static Test suite() {
