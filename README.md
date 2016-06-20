@@ -35,7 +35,3 @@
 
 6/19(토) 노휘겸 결
 - [메서드 호출 단순화 (박민규)](https://github.com/KWSStudy/Refactoring/wiki/메서드 호출 단순화)
-
-6/25(토) 노휘겸 결
-- [일반화 처리 (이지훈)](https://github.com/KWSStudy/Refactoring/wiki/일반화 처리)
-- [복합 리팩토링 (신민수)](https://github.com/KWSStudy/Refactoring/wiki/복합 리팩토링)
